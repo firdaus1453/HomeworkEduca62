@@ -29,7 +29,7 @@ public class MainActivity extends AppCompatActivity {
     public void onViewClicked(View view) {
         switch (view.getId()) {
             case R.id.btnLogin:
-                startActivity(new Intent(this, HomeActivity.class));
+                startActivity(new Intent(this, MainNavActivity.class));
                 break;
             case R.id.btnDaftar:
                 startActivity(new Intent(this, DaftarActivity.class));
